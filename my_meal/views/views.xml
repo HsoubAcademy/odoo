@@ -95,11 +95,11 @@
           <field name="model">partners.meals</field>
           <field name="type">search</field>
           <field name="arch" type="xml">
-              <serach string="Meals">
+              <search string="Meals">
                   <filter name="filter_to_breakfast" string="وجبات الفطور" domain="[('meal_name', '=', 'breakfast')]" />
                   <filter name="filter_to_lunch" string="وجبات الغداء" domain="[('meal_name', '=', 'lunch')]" />
                   <filter name="filter_to_dinner" string="وجبات العشاء" domain="[('meal_name', '=', 'dinner')]" />
-              </serach>
+              </search>
           </field>
       </record>
 
